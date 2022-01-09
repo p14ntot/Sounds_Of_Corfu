@@ -1,0 +1,67 @@
+h1 {
+    color: rgb(65, 42, 165);
+    font-size: 2.5em;
+    background: rgb(116, 79, 168);
+    background: radial-gradient(
+        circle,
+        rgba(116, 79, 168, 1) 0%,
+        rgb(18, 112, 14) 100%
+
+    )
+}
+
+body {
+    background-image: url(night.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150% ;
+    background-attachment: fixed;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.big {
+    font-size: 1.2em;
+    border: 2px solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+
+h1,h3,p {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(4, 35, 102);
+    font-size: 1.8em;
+}
+
+a {
+    color: rgb(224, 210, 243);
+    font-size: x-large;
+}
+
+.links {
+    text-align: center;
+    border: 2px solid;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 20px;
+    background-color:rgb(19, 9, 82);
+}
+
+.pics {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+.about {
+    text-align: center;
+    font-size: 1.2em;
+    background-color:rgba(128, 128, 128, 0.486);
+    border-radius: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
